@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCs y Accesorios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>PCs y Accesorios</h1>
+        <nav>
+            <ul>
+                <li><a href="#productos">Nuestros Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de presentación -->
+    <section id="intro">
+        <h2>Bienvenidos a nuestra tienda de PCs</h2>
+        <p>En PCs y Accesorios encontraras las mejores computadoras, componentes y accesorios de tecnologia, todo con precios competitivos y garantia de calidad.</p>
+    </section>
+
+    <!-- Sección de productos -->
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="productos-container">
+            <div class="producto">
+                <img src="pcs.jpg" alt="PC Gamer High Performance">
+                <h3>PC Gamer High Performance</h3>
+                <p>Potente PC disenada para gaming, con procesador Intel i9, 32GB de RAM, y una tarjeta grafica RTX 3080.</p>
+                <p class="precio">$2,199.99</p>
+                <button>Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="pcs2.jpg" alt="Laptop Ultraligera 14”">
+                <h3>Laptop Ultraligera 14”</h3>
+                <p>Ideal para trabajo y estudio, con procesador Intel i7, 16GB de RAM, y 512GB SSD.</p>
+                <p class="precio">$1,099.99</p>
+                <button>Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="pcs3.jpg" alt="Monitor 27” 4K">
+                <h3>Monitor 27 pulgadas 4K</h3>
+                <p>Pantalla de alta resolución ideal para disenadores y gamers, con HDR y 144Hz de tasa de refresco.</p>
+                <p class="precio">$499.99</p>
+                <button>Agregar al carrito</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna consulta o deseas recibir mas informacion sobre nuestros productos, no dudes en contactarnos.</p>
+        <form action="#">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electronico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 PCs y Accesorios. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
